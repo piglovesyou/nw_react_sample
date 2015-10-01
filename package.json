@@ -1,0 +1,27 @@
+{
+  "name": "nw_react_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "nw",
+    "postinstall": "bower install && gulp",
+    "watch": "gulp watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "bower": "^1.5.3",
+    "flux": "^2.1.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-sass": "^2.0.4",
+    "nw": "^0.12.3",
+    "object-assign": "^4.0.1",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.4.0"
+  }
+}

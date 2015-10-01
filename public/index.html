@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>nw_react_sample</title>
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+<body>
+  <script>
+    require('babel/register');
+    for (var k in window) if (!global[k]) global[k] = window[k];
+    // global.nw = { gui: require('nw.gui') };
+    require('../src/main');
+  </script>
+</body>
+</html>
